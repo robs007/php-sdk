@@ -46,6 +46,7 @@ class SmartwaiverWaiver extends SmartwaiverType
         'isMinor',
         'clientIP',
         'tags',
+        'autoTag,
         'flags',
         'participants',
         'email',
@@ -142,6 +143,10 @@ class SmartwaiverWaiver extends SmartwaiverType
      * @var string[] A list of tags for the waiver
      */
     public $tags;
+    /**
+     * @var string[] A list of tags for the waiver
+     */
+    public $autoTag;
 
     /**
      * @var SmartwaiverFlag[] A list of flags for the waiver

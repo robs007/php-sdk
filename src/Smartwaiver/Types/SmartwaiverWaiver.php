@@ -277,6 +277,7 @@ class SmartwaiverWaiver extends SmartwaiverType
         $this->isMinor = $waiver['isMinor'];
         $this->clientIP = $waiver['clientIP'];
         $this->tags = $waiver['tags'];
+        $this->tags = $waiver['autoTag'];
 
         // Check that flags field is an array
         $this->flags = array();

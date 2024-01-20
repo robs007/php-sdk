@@ -46,7 +46,7 @@ class SmartwaiverWaiver extends SmartwaiverType
         'isMinor',
         'clientIP',
         'tags',
-        'autoTag,
+        'autoTag',
         'flags',
         'participants',
         'email',

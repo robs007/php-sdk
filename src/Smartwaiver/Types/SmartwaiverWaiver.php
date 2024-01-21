@@ -59,6 +59,7 @@ class SmartwaiverWaiver extends SmartwaiverType
         'addressCountry',
         'emergencyContactName',
         'emergencyContactPhone',
+        'marketingAllowedCheckbox',
         'insuranceCarrier',
         'insurancePolicyNumber',
         'driversLicenseNumber',
@@ -208,6 +209,8 @@ class SmartwaiverWaiver extends SmartwaiverType
      */
     public $emergencyContactPhone;
 
+    public $marketingAllowedCheckbox;
+
     /**
      * @var string The name of the insurance carrier on the waiver
      */
@@ -313,6 +316,7 @@ class SmartwaiverWaiver extends SmartwaiverType
         $this->addressCountry = $waiver['addressCountry'];
         $this->emergencyContactName = $waiver['emergencyContactName'];
         $this->emergencyContactPhone = $waiver['emergencyContactPhone'];
+        $this->marketingAllowedCheckbox = $waiver['marketingAllowedCheckbox'];
         $this->insuranceCarrier = $waiver['insuranceCarrier'];
         $this->insurancePolicyNumber = $waiver['insurancePolicyNumber'];
         $this->driversLicenseNumber = $waiver['driversLicenseNumber'];
